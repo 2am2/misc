@@ -3,10 +3,10 @@ import random
 x = None
 print(x is None)
 
-print("gun city")
+print(f"gun city is {x}")
 
 def dice():
     r = random.randint(1,6)
     print(r)
     
-dice()
+print('no dice')
